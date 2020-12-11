@@ -1,0 +1,36 @@
+{
+  "name": "node-authentication-module",
+  "version": "1.0.0",
+  "description": "Express application consisting login, logout, profile, forgetPassword, resetPassword, changePassword with  * accessToken * refreshToken",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arkomandal/node-authentication-module.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arkomandal/node-authentication-module/issues"
+  },
+  "homepage": "https://github.com/arkomandal/node-authentication-module#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^17.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.6",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.2.0"
+  }
+}
